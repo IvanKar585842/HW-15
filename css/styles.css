@@ -7,7 +7,7 @@
 }
 .item{
     font-size: 50px; 
-    flex-basis: calc((100% - 2 * 0px) / 3);
+    /* flex-basis: calc((100% - 2 * 0px) / 3); */
 }
 .item1{
 font-size: 50px; 
@@ -31,6 +31,7 @@ flex-basis: calc((100% - 1 * 0px) / 2);
 .item:nth-child(4){
     background-color:green;
      flex-grow: 1;
+     order: 4;
 }
 .item1:nth-child(5){
     background-color:rgb(255, 187, 0) ;
